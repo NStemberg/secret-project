@@ -13,6 +13,11 @@ const routes: Routes = [
         component: JumpNRunComponent,
         pathMatch: 'full'
       },
+      {
+        path: 'scroll',
+        component: ScrollComponent,
+        pathMatch: 'full',
+      },
     ],
   },
 ];

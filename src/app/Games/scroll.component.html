@@ -1,0 +1,7 @@
+<button (click)="onClick()"> Start The Game! </button>
+<button (click)="onDelete()"> Stop the Game </button>
+<div *ngIf="!deleted" id="scroll"></div>
+<div *ngFor="let player of scores">
+  <h1>{{player.player}}</h1>
+  <h1>{{player.score}}</h1>
+</div>
