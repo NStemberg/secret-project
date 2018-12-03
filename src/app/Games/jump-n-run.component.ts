@@ -48,7 +48,7 @@ function create () {
   const self = this;
   console.log(self);
 
-  this.socket = io('http://localhost:3000/');
+  this.socket = io('https://limitless-caverns-43589.herokuapp.com/');
 
   this.otherPlayers = this.physics.add.group();
   this.socket.on('currentPlayers', function (players) {

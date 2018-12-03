@@ -50,7 +50,7 @@ let myImage;
 function create () {
   const self = this;
 
-  this.socket = io('http://localhost:3000/');
+  this.socket = io('https://limitless-caverns-43589.herokuapp.com/');
 
   myImage = this.add.image(400, 300, 'space');
 
